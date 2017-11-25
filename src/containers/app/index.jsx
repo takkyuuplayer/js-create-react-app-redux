@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Link } from 'react-router-dom';
 import Home from '../home';
-import Abount from '../about';
+import About from '../about';
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
 const App = () => (
@@ -13,7 +13,7 @@ const App = () => (
 
     <main>
       <Route exact path="/" component={Home} />
-      <Route exact path="about-us" component={Abount} />
+      <Route exact path="/about-us" component={About} />
     </main>
   </div>
 );

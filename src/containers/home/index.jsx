@@ -33,18 +33,6 @@ const Home = props => (
 );
 
 
-Home.propTypes = {
-  count: React.PropTypes.number.isRequired,
-  isIncrementing: React.PropTypes.bool.isRequired,
-  isDecrementing: React.PropTypes.bool.isRequired,
-
-  increment: React.PropTypes.func.isRequired,
-  incrementAsync: React.PropTypes.func.isRequired,
-  decrement: React.PropTypes.func.isRequired,
-  decrementAsync: React.PropTypes.func.isRequired,
-  changePage: React.PropTypes.func.isRequired,
-};
-
 const mapStateToProps = state => ({
   ...state.counter,
 });
